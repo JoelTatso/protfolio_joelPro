@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../font/WorkSans.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin border-radius_card{
+    border-radius: 12px;
+}
+.d-contents{
+    display: contents;
+}
+
+body{
+    font-family: 'Work Sans';
+    background-color: #f3f3f3;
+
+    section{
+        padding:3rem 0;
+    }
+
+    nav,footer{
+        a{
+            font-weight: 500;
+            color: #212529 !important;
+            &:hover{
+                background: -webkit-linear-gradient(#0725ec 40%,#f001d8 60%);
+                -webkit-background-clip:text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+    button,button:active,button:focus,button:hover{
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .btn-primary{
+        padding: 10px 10px;
+        border: none !important;
+        border-radius: 20px;
+        background:linear-gradient(300deg,rgba(#0725ec,.75) 40%,rgba(#f001d8,.75) 60%) !important;
+        transition: all .3s ease;
+
+        &:hover{
+            transform: scale(1.05);
+            background:linear-gradient(600deg,rgba(#0725ec,.75) 40%,rgba(#f001d8,.75) 60%) !important;
+        }
+    }
+
+    .text-gradient,.active{
+        background: -webkit-linear-gradient(#0725ec 40%,#f001d8 60%);
+                    -webkit-background-clip:text;
+                    -webkit-text-fill-color: transparent;
+    }
+
+    .brand{
+        font-weight: 700;
+        font-size:1.7rem;
+    }
+
+    #tech{
+         img{
+            width:120px !important;
+            //height: 40px !important;
+        }
+    }
+
+    .project-card{
+        @include border-radius_card();
+        background-color: white;
+        box-shadow: 0 0 10px 1px rgba(#212529,.5);
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        
+        &:hover{
+            transform: scale(1.04);
+        }
+        
+        .project-img{
+            img{
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+            }
+        }
+        .project-content{
+            padding: 15px;
+        }
+    }
+
+    .contact{
+        a{
+            transition: all .3s ease-in-out;
+            &:hover{
+                text-decoration: underline !important;
+                
+            }
+        }
+    }
+}
+
+
+
+
+

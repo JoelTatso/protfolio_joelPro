@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - JoelPro </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar py-2 navbar-expand-md navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand brand text-gradient">{{ JoelPro }}</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="#tech" class="nav-link">Technologies</a></li>
+                    <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- section Accueil -->
+    <section id="accueil">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="myself p-0 m-0">
+                       <h1 class="fs-2 lh-base text-center text-md-start">Salut,&#x1F44B;&#x1F3FC;<br/>Je m'appelle<br/><span class="text-gradient">Joel Tatso</span><br/>Je suis Développeur Web Junior</h1>
+                    </div>
+                    <div class="buttons mt-4 mb-4 mb-md-0 ms-auto text-center text-md-start">
+                        <a class="btn btn-primary" href="https://wa.me/+237651341047" target="_blank"><i class="fab fa-whatsapp"></i> Me contacter</a>
+                        <!-- <a class="btn btn-primary align-items-center"><i class="fas fa-download"></i> Mon CV</a> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profil mt-3 mt-mg-0">
+                        <img src="assets/profil.svg" alt="Profile" class="img-fluid w-60">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- outils techniques -->
+    <section id="tech" class="pb-0 pb-md-5">
+        <div class="container">
+            <div class="row mt-3">
+                <h1 class="text-center fs-2 brand">Mes Outils techniques</h1>
+                <p class="text-center">Quelques technologies et outils techniques que j'ai déjà utiliser</p>
+            </div>
+            <div class="row mt-2 mt-md-5 justify-content-center align-items-center gy-3">
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/html.png" alt="html" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/css.png" alt="css" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/js.png" alt="js" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/sass.png" alt="sass" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/bootstrap.png" alt="bootstrap" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/jquery.png" alt="jquery" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/laravel.png" alt="laravel" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/ng.png" alt="angular" class="img-fluid mt-3">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/git.png" alt="git" class="img-fluid mt-2">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/github.png" alt="github" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="assets/stack/vscode.png" alt="vscode" class="img-fluid mt-4 img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section projets -->
+    <section id="projets">
+        <div class="container">
+            <div class="row p-0 p-md-2  mt-md-3">
+                <h1 class="text-center fs-2 brand">Mes Projets</h1>
+                <p class="text-center">Mes différentes réalisations</p>
+            </div>
+            <div class="row gy-4 mt-1 mt-md-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/projets/1.PNG" alt="mon portfolio" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3 class="brand">Portfolio JoelPro</h3>
+                            </div>
+                            <div class="project-description">
+                                <p>Je vous présente mon portfolio inspiré d'une maquette figma</p>
+                            </div>
+                            <div class="tech">
+                                <strong class="bold">Tech Stack</strong> : <span> HTML, SCSS,BOOTSTRAP</span>
+                            </div>
+                            <div class="view d-flex justify-content-between align-items-center mt-3">
+                                <span><i class="fa fa-link"></i> <a href="#" class="text-dark">Voir</a></span>
+                                <span><i class="fab fa-github"></i> <a href="" class="text-dark">Code source</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/projets/2.PNG" alt="mon portfolio" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-title">
+                                <h3 class="brand">Portfolio Brooklyn</h3>
+                            </div>
+                            <div class="project-description">
+                                <p>Integration d'une maquette figma (Portfolio Brooklyn) </p>
+                            </div>
+                            <div class="tech text-truncate">
+                                <strong>Tech Stack</strong> : <span>HTML, SCSS, JS, BOOTSTRAP</span>
+                            </div>
+                            <div class="view d-flex justify-content-between align-items-center mt-3">
+                                <span><i class="fa fa-link"></i> <a href="" class="text-dark">Voir</a></span>
+                                <span><i class="fab fa-github"></i> <a href="https://github.com/JoelTatso/figma_integration_Brooklyn_portfolio" class="text-dark">Code source</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section contact -->
+    <section class="p-0 pt-md-5" id="contact">
+        <div class="container">
+            <div class="row gy-2">
+                <div class="col-12 col-md-4 text-center text-md-start">
+                    <a href="#" class="navbar-brand brand text-gradient">{{ JoelPro }}</a>
+                </div>
+                <div class="col-12 col-md-8 text-center text-md-end contact">
+                    <a href="tel:+237651341047" class="text-dark text-decoration-none mx-3">+237 651 341 047</a>
+                    <a href="mailto:sietchomzeutatso@gmail.com" class="text-dark text-decoration-none">sietchomzeutatso@gmail.com</a>
+                </div>
+            </div>
+            <div class="row border my-4 w-100 justify-content-center"></div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="py-0 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="nav d-block d-md-flex text-center text-md-start ">
+                        <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
+                        <li class="nav-item"><a href="#tech" class="nav-link">Technologies</a></li>
+                        <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span>&copy;Copyright <span class="text-gradient">JoelPro</span> 2024</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/plus.js"></script>
+</body>
+</html>
