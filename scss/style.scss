@@ -60,6 +60,11 @@ body{
                     -webkit-text-fill-color: transparent;
     }
 
+    .bg-nav{
+        background-color: rgba(#f3f3f3,.5);
+        backdrop-filter: blur(20px);
+    }
+
     .brand{
         font-weight: 700;
         font-size:1.7rem;
